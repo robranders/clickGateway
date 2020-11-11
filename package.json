@@ -1,0 +1,28 @@
+{
+    "name": "clickgateway",
+    "version": "1.0.0",
+    "description": "Local Express server for collecting Modbus data from a Click PLC and sending it to a cloud server",
+    "main": "index.js",
+    "dependencies": {
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "node-fetch": "^2.6.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/robranders/clickGateway.git"
+    },
+    "author": "Robin Branders",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/robranders/clickGateway/issues"
+    },
+    "homepage": "https://github.com/robranders/clickGateway#readme"
+}
