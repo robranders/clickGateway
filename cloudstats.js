@@ -19,4 +19,4 @@ const sysInfo = (serverUrl) => {
             .catch((err) => console.log(err));
     });
 };
-sysInfo("cristal.robinbranders.be");
+sysInfo("localhost:5000");
